@@ -1,0 +1,21 @@
+body{
+  background-color: blue;
+  text-align: center;
+  p{
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+  }
+  h1{
+    color: yellow;
+    font-size: 30px;
+    &.hello{
+      text-decoration: underline;
+    }
+    &.hola{
+      text-decoration: overline;
+      font-weight: bolder;
+      color: red;
+    }
+  }
+}
